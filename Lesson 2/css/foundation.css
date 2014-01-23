@@ -4975,13 +4975,13 @@ th.hide-for-touch {
   	background:#A0D3E8;
   	
   }
-  ul li {
+  .nav ul li {
   display: block;
   position: relative;
   float: left;
   }
   
-  ul li a {
+  .nav ul li a {
   display: block;
   text-decoration: none;
   padding: 7px 15px 3px 15px;
@@ -4995,10 +4995,26 @@ th.hide-for-touch {
   }
 
 body#home a#navHome,
-body#products a#navProduct,
+body#project a#navProject,
 body#services a#navServices,
 body#contact a#navContact,
 body#github a#navGit,
 body#about a#navAbout {
 	color: #000000;
 	background: #134B5B;
+}
+
+.imgPanel ul li a{
+	display: block;
+  	text-decoration: none;	
+	margin-left: 1px;
+  	white-space: nowrap;
+  	height:200px; /* Width and height of top-level nav items */
+  	width:200px;
+}
+
+.imgPanel ul li {
+  display: block;
+  position: relative;
+  float: left;
+  }
